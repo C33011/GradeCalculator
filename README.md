@@ -11,6 +11,7 @@
 - Calculates the average of the entered grades.
 - Provides feedback on whether each grade is above or below the average.
 - Tracks and displays memory usage statistics, including total allocations and bytes freed.
+- 2 sample input and output text files
 - A COMPLETE lack of arrays or array syntax, relying entirely on pointer arithmetic.
 
 ## Usage
@@ -22,6 +23,9 @@
    ```bash
    ./GradeCalculator
 3. Enter a list of grades, each separated by a newline. After entering the last grade, input a negative value to finish the list.
+4. For using file input, ensure that the input file is in the same directory as the program's output. Using this example to run it:
+   ```bash
+   ./GradeCalculator < input1.txt > output1.txt; tail output1.txt;
 
 ## Examples
   Enter a list of grades below where each grade is separated by a newline character. After the last grade is entered, enter a negative value to end the list. 90 85 78 92 88 -1 The average of 5 grades is 86.600000.
